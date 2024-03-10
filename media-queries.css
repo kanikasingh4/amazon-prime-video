@@ -1,9 +1,22 @@
-@media (max-width:768px){
+@media only screen and (min-width: 600px) and (max-width: 1200px){
    body{
     background-color: black;
    }
+   .top{
+    width: 55rem;
+}
+.menu{
+    display: block;
+}
+#option2{
+    display: none;
+}
+.nav-menu-1{
+    display: none;
+   }
 .section1{
-    height: 74rem;
+    height: 50rem;
+    width: 55rem;
     background-color:black;
     display: flex;
     flex-direction: column-reverse;
@@ -22,36 +35,48 @@
     margin-left: 12rem;
 }
 .section3{
-    height: 65rem;
+    height: 60rem;
+    width: 55rem;
     background-color:white;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+
 }
 .section3-text{
-    width: 55rem;
-    height: 10rem;
+    width: 45rem;
+    height: 13rem;
+  margin-left: 1rem;
     
 }
+.grid-container{
+    margin-left: 1rem;
+    margin-right: 1rem;
+ }
 .section4{
     height: 60rem;
+    width: 55rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
+.footer{
+    width: 55rem;
+}
 
 
 }
 
 
-@media (max-width:300px){
+@media only screen and (max-width: 600px) {
 .top{
-    max-width: 75rem;
+    width: 30rem;
 }
 .menu{
     display: block;
+    width: 9rem;
 }
 #option2{
     display: none;
@@ -61,8 +86,8 @@
     display: none;
    }
     .section1{
-        height: 74rem;
-       max-width: 75rem;
+        height: 37rem;
+       width: 34rem;
         background-color:black;
         display: flex;
         flex-direction: column-reverse;
@@ -71,7 +96,7 @@
     }
     
     .section1-text{
-       
+      width: 35rem;
         margin-bottom: 5rem;
         position: sticky;
         background-color: black;
@@ -81,29 +106,45 @@
         margin-left: 9rem;
     }
     .section3{
-        height: 65rem;
-        max-width: 75rem;
+        height: 57rem;
+        width: 34rem;
         background-color:white;
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        
+    }
+    .grid-container{
+       margin-left: 1rem;
+       margin-right: 1rem;
     }
     .section3-text{
-        width: 30rem;
-        height: 10rem;
+        width: 28rem;
+        height: 11rem;
+        margin-left: 1rem;
         
     }
     .section4{
         height: 65rem;
-        max-width: 75rem;
+        width: 34rem;
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
     }
+    .section4-img img{
+        height: 20rem;
+        width: 34rem;
+    }
+    .section4-text{
+        width: 32rem;
+     height: 15rem;
+        
+        
+    }
     .footer{
-        width: 75rem;
+        width: 34rem;
     }
     
 }
